@@ -1,0 +1,148 @@
+/***************************查询*****************************/
+@media screen and (max-width: 1199px){
+		.navbarHover > .dropdown > .dropdown-menu{
+			width: 1184px ! important;
+		}
+		.navbarHover .dropdown:nth-child(1) .dropdown-menu{
+			left: -312% ! important;
+		}		
+		.navbarHover .dropdown:nth-child(2) .dropdown-menu{
+			left: -412% ! important;
+		}		
+		.navbarHover .dropdown:nth-child(3) .dropdown-menu{
+			left: -512% ! important;
+		}		
+		.navbarHover .dropdown:nth-child(4) .dropdown-menu{
+			left: -612% ! important;
+		}		
+		.navbarHover .dropdown:nth-child(5) .dropdown-menu{
+			left: -712% ! important;
+		}
+	}
+	@media screen and (max-width: 970px){
+		.formLocation{
+			left: 46% ! important;
+		}
+	}
+/*************************全局设定**************************/
+a:visited,a:link,a:hover{
+	text-decoration: none;
+	}
+.myfooter{
+	margin-top: 50px;
+	line-height: 30px;
+	padding-top: 20px;
+	background-color: #EDEDED;
+	}
+.dropdown-toggle{
+	height: 39px;
+	}
+.nav{
+	margin-top: -10px;
+}
+.navbar .nav > li:hover .dropdown-menu {
+	display: block;
+}
+/*************************导航**************************/
+.firstnavbar{
+	height: 30px;
+	min-height: 30px;
+	margin-bottom: 5px;
+	}
+.subnavbar{
+	height: 80px;
+	min-height: 80px;
+	margin-bottom: 5px;
+	background-color: white;
+	border:none;
+	}
+.subnavbar > div{
+	height: 80px;
+	padding: 15px 15px;
+}
+.navbarHover > li > a{
+	color: #1E1E1E ! important;
+	font-size: 1.2em;
+	padding:10px 0;
+	margin:0 30px 20px 0;
+}
+.navbarHover > li > a:hover{
+	color: red;
+	border-bottom: 2px solid #009ACD;
+}
+.navbarHover > .dropdown > .dropdown-menu{
+	width: 1905px;
+}
+.navbarHover .dropdown:nth-child(1) .dropdown-menu{
+	left: -615%;
+}		
+.navbarHover .dropdown:nth-child(2) .dropdown-menu{
+	left: -715%;
+}		
+.navbarHover .dropdown:nth-child(3) .dropdown-menu{
+	left: -815%;
+}		
+.navbarHover .dropdown:nth-child(4) .dropdown-menu{
+	left: -915%;
+}		
+.navbarHover .dropdown:nth-child(5) .dropdown-menu{
+	left: -1015%;
+}		
+.navbarHover .dropdown-menu li{
+	height: 189px;
+	border: 1px solid gray;
+}
+/************************内容****************************/
+.production{
+	margin-top: 40px;
+	border:1px solid lightgray
+}
+.content1 div,.content2 div{
+	text-align: center;
+	height: 275px;
+	padding: 5px;
+}
+.content1,.content2{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.content1 img,.content2 img{
+	height: 100%;
+	width: 100%;
+}
+/*************************登录页面****************************/
+.bg-img{
+		height: 84%;
+		background: url("../img/ball2.png") no-repeat center;
+}
+.formLocation{
+	position: absolute;
+	float: left;
+	top: 120px;
+	left: 58%;
+	width: 380px;
+	height: 410px;
+	border-radius: 8px;
+	padding: 20px 20px ;
+	background-color: white;
+}
+/**********************特殊设定*************************/
+.QRcode{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+.btn-back-top{
+	opacity: 0.7;
+	position: fixed;
+	top: 82%;
+	right: 5px;
+	display: none;
+}
+.btn-back-top:hover{
+	opacity: 1;
+}
+.shopping-car{
+	width: 300px;
+	height: 250px
+}
